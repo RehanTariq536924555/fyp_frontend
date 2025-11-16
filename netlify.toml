@@ -1,7 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "cd BakraMandi360 && npm install --legacy-peer-deps && npm run build"
+  publish = "BakraMandi360/dist"
+  base = "."
 
 [build.environment]
   NODE_VERSION = "18"
-  NPM_FLAGS = "--legacy-peer-deps"
