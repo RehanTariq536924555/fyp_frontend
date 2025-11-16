@@ -1,6 +1,6 @@
 {
   "framework": "vite",
-  "installCommand": "npm install --legacy-peer-deps",
-  "buildCommand": "vite build",
+  "installCommand": "pnpm install --no-strict-peer-deps",
+  "buildCommand": "pnpm build",
   "outputDirectory": "dist"
 }
