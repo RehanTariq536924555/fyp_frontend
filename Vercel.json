@@ -1,6 +1,4 @@
 {
-  "framework": "vite",
-  "installCommand": "pnpm install --no-strict-peer-deps",
-  "buildCommand": "pnpm build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
